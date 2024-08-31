@@ -7,6 +7,7 @@ import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
+import labourPic from "../../../resources/labour3.jpg";
 
 import { visuallyHidden } from "@mui/utils";
 import { styled } from "@mui/material/styles";
@@ -19,7 +20,7 @@ const StyledBox = styled("div")(({ theme }) => ({
   borderRadius: theme.shape.borderRadius,
   outline: "1px solid",
   boxShadow: "0 0 12px 8px hsla(220, 25%, 80%, 0.2)",
-  backgroundImage: `url(${"/static/images/templates/templates-images/hero-light.png"})`,
+  backgroundImage: `url(${labourPic})`,
   outlineColor: "hsla(220, 25%, 80%, 0.5)",
   backgroundSize: "cover",
   [theme.breakpoints.up("sm")]: {
@@ -28,7 +29,7 @@ const StyledBox = styled("div")(({ theme }) => ({
   },
   ...theme.applyStyles("dark", {
     boxShadow: "0 0 24px 12px hsla(210, 100%, 25%, 0.2)",
-    backgroundImage: `url(${"/static/images/templates/templates-images/hero-dark.png"})`,
+    backgroundImage: `url(${labourPic})`,
     outlineColor: "hsla(210, 100%, 80%, 0.1)",
   }),
 }));
@@ -83,7 +84,7 @@ export default function Hero() {
                 }),
               })}
             >
-              Unlock top talents for your Business.
+              Kings Trade International
             </Typography>
           </Typography>
           <Typography

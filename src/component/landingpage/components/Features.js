@@ -16,6 +16,9 @@ import DevicesRoundedIcon from "@mui/icons-material/DevicesRounded";
 import EdgesensorHighRoundedIcon from "@mui/icons-material/EdgesensorHighRounded";
 import ViewQuiltRoundedIcon from "@mui/icons-material/ViewQuiltRounded";
 
+import labourPic from "../../../resources/labourPic.png";
+import labourPic2 from "../../../resources/labour3.jpg";
+
 const items = [
   {
     icon: <ViewQuiltRoundedIcon />,
@@ -293,12 +296,12 @@ export default function Features() {
             <Box
               sx={(theme) => ({
                 m: "auto",
-                width: 420,
-                height: 500,
+                width: 500,
+                height: 800,
                 backgroundSize: "contain",
-                backgroundImage: "var(--items-imageLight)",
+                backgroundImage: `url(${labourPic})`,
                 ...theme.applyStyles("dark", {
-                  backgroundImage: "var(--items-imageDark)",
+                  backgroundImage: `url(${labourPic})`,
                 }),
               })}
               style={{
